@@ -1,0 +1,40 @@
+<Root>
+	<FileFormat>HighLanguage</FileFormat>
+	<FileVersion></FileVersion>
+	<DefaultMacro>
+		<Major></Major>
+		<Software>1</Software>
+		<Description>1</Description>
+		<Comment>1</Comment>
+		<Resolution>1920*1080</Resolution>
+		<CPIRemark></CPIRemark>
+		<GUIOption>
+			<RepeatType>1</RepeatType>
+		</GUIOption>
+		<Key>
+			<Syntax>MouseButton Down Right , Delay 30 ms
+MouseButton Up Right , Delay 30 ms
+Delay 400 ms
+Flag 0
+Keyboard Down Shift , Delay 64 ms
+Keyboard Up Shift , Delay 64 ms
+MouseButton Down Left , Delay 64 ms
+MouseButton Up Left , Delay 64 ms
+Delay 1100 ms
+GotoFlag 0</Syntax>
+		</Key>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+	</DefaultMacro>
+	<Authority>
+		<AuthorName>NarakaBloody</AuthorName>
+		<AuthorHardwareID></AuthorHardwareID>
+		<AllowPassword></AllowPassword>
+		<AllowAttribute>Admin</AllowAttribute>
+		<AuthorPhone></AuthorPhone>
+		<AuthorEmail></AuthorEmail>
+		<AuthorWeb>https://github.com/NarakaBloody</AuthorWeb>
+		<UserHardwareId></UserHardwareId>
+	</Authority>
+</Root>
