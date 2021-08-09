@@ -1,0 +1,55 @@
+<Root>
+	<FileFormat>HighLanguage</FileFormat>
+	<FileVersion></FileVersion>
+	<DefaultMacro>
+		<Major></Major>
+		<Software>1</Software>
+		<Description>1</Description>
+		<Comment>1</Comment>
+		<Resolution>1920*1080</Resolution>
+		<CPIRemark></CPIRemark>
+		<GUIOption>
+			<RepeatType>1</RepeatType>
+		</GUIOption>
+		<Key>
+			<Syntax>Keyboard Down W , Delay 2 ms
+Keyboard Down Shift , Delay 15 ms
+Keyboard Up Shift , Delay 2 ms
+Flag 0
+MouseButton Down Right , Delay 2 ms
+Repeat 3 {
+Repeat 222 {
+IFKey 1 Press {
+Keyboard Down C , Delay 2 ms
+MouseButton Down Left , Delay 2 ms
+MouseButton Down Right , Delay 2 ms
+Keyboard Up C , Delay 2 ms
+MouseButton Up Left , Delay 2 ms
+MouseButton Up Right , Delay 2 ms
+}
+IFKey 2 Press {
+Keyboard Down Shift , Delay 20 ms
+Keyboard Up Shift , Delay 2 ms
+MouseButton Up Right , Delay 2 ms
+GotoFlag 0
+}
+}
+}
+MouseButton Up Right , Delay 2 ms
+Comment 按住宏键蓄力，放开释放招式。蓄力期间点左键转振刀，点右键换位置蓄力。</Syntax>
+		</Key>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+	</DefaultMacro>
+	<Authority>
+		<AuthorName>NarakaBloody</AuthorName>
+		<AuthorHardwareID></AuthorHardwareID>
+		<AllowPassword></AllowPassword>
+		<AllowAttribute>Admin</AllowAttribute>
+		<AuthorPhone></AuthorPhone>
+		<AuthorEmail></AuthorEmail>
+		<AuthorWeb>https://github.com/NarakaBloody</AuthorWeb>
+		<UserHardwareId></UserHardwareId>
+	</Authority>
+</Root>
