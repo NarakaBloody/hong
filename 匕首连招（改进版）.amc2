@@ -1,0 +1,60 @@
+<Root>
+	<FileFormat>HighLanguage</FileFormat>
+	<FileVersion></FileVersion>
+	<DefaultMacro>
+		<Major></Major>
+		<Software>1</Software>
+		<Description>1</Description>
+		<Comment>1</Comment>
+		<Resolution>1920*1080</Resolution>
+		<CPIRemark></CPIRemark>
+		<GUIOption>
+			<RepeatType>2</RepeatType>
+		</GUIOption>
+		<Key>
+			<Syntax>MouseButton Down Right , Delay 30 ms
+MouseButton Up Right , Delay 30 ms
+Delay 390 ms
+Flag 0
+Keyboard Down Shift , Delay 64 ms
+Keyboard Up Shift , Delay 64 ms
+MouseButton Down Left , Delay 64 ms
+MouseButton Up Left , Delay 64 ms
+Delay 1050 ms
+IFKey 4 Press {
+Delay 200 ms
+Keyboard Down C , Delay 64 ms
+Keyboard Up C , Delay 64 ms
+MouseButton Down Right , Delay 64 ms
+MouseButton Up Right , Delay 64 ms
+Delay 350 ms
+MouseButton Down Left , Delay 64 ms
+MouseButton Up Left , Delay 64 ms
+Delay 700 ms
+MouseButton Down Left , Delay 64 ms
+MouseButton Up Left , Delay 64 ms
+Delay 300 ms
+MouseButton Down Right , Delay 64 ms
+MouseButton Up Right , Delay 64 ms
+Delay 900 ms
+MouseButton Down Right , Delay 64 ms
+MouseButton Up Right , Delay 64 ms
+Delay 390 ms
+}
+GotoFlag 0</Syntax>
+		</Key>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+	</DefaultMacro>
+	<Authority>
+		<AuthorName>NarakaBloody</AuthorName>
+		<AuthorHardwareID></AuthorHardwareID>
+		<AllowPassword></AllowPassword>
+		<AllowAttribute>Admin</AllowAttribute>
+		<AuthorPhone></AuthorPhone>
+		<AuthorEmail></AuthorEmail>
+		<AuthorWeb>https://github.com/NarakaBloody</AuthorWeb>
+		<UserHardwareId></UserHardwareId>
+	</Authority>
+</Root>
