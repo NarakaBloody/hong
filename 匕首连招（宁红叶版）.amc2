@@ -15,7 +15,7 @@
 			<Syntax>Flag 1
 MouseButton Down Right , Delay 30 ms
 MouseButton Up Right , Delay 30 ms
-Delay 390 ms
+Delay 400 ms
 Flag 0
 Keyboard Down Shift , Delay 64 ms
 Keyboard Up Shift , Delay 64 ms
@@ -39,7 +39,7 @@ Delay 300 ms
 MouseButton Down Right , Delay 64 ms
 MouseButton Up Right , Delay 64 ms
 IFKey 5 Press {
-Delay 910 ms
+Delay 930 ms
 Keyboard Down F , Delay 64 ms
 Keyboard Up F , Delay 64 ms
 Delay 650 ms
